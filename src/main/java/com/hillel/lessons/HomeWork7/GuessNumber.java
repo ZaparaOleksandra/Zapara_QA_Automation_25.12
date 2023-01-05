@@ -11,23 +11,22 @@ public class GuessNumber {
         do {
             counter++;
 			System.out.print("Enter number from 0 to 10: ");
-            Scanner input = new Scanner(System.in);
-			if(input.hasNextInt()) {
-				userNumber = input.nextInt();
+            Scanner scanner = new Scanner(System.in);
+			if(scanner.hasNextInt()) {
+				userNumber = scanner.nextInt();
 				if(userNumber == progNumber) {
-					System.out.println("You win!");{
+					System.out.println("You won!");
                         break;
-                    }
 				} else {
 						if(progNumber < userNumber) {
-							System.out.println("The computer chose a smaller number ");
+							System.out.println("The computer chose a smaller number");
 						} else {
 							System.out.println("The computer chose a higher number");
 					}
 				}
 			} else {
 			System.out.println("You entered no number");
-            input.nextLine();
+            scanner.nextLine();
 			}
         } while(counter <= 2);
         System.out.println("If you want to play again!:)");
