@@ -17,32 +17,3 @@ public class Shuttle {
         System.out.println("Number of shuttles " + counter);
     }
 }
-
-
-
-
-
-
-
-
-
-
-//        int counter = 0;
-//        int shattle = 0;
-//        do {
-//            shattle++;
-//            if ((shattle / 100) == 4 || (shattle % 100) == 4 || ((shattle % 100) / 10) == 4 || (shattle % 10) == 4
-//                        || (shattle / 100) == 9 || (shattle % 100) == 9 || ((shattle % 100) / 10) == 9 || (shattle % 10) == 9) {
-//                    continue;
-//                }
-//                System.out.println(shattle);
-//                counter++;
-//
-//        } while ((counter < 100));
-//        System.out.println("Shattle number " + counter);
-//    }
-//}
-//
-
-
-
