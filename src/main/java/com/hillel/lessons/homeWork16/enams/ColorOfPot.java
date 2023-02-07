@@ -2,9 +2,9 @@ package com.hillel.lessons.homeWork16.enams;
 
 public enum ColorOfPot {
 
-    Grey("Grey"),
-    Black("Black"),
-    White("White");
+    GREY("Grey"),
+    BLACK("Black"),
+    WHITE("White");
 
     private String color;
 

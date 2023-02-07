@@ -26,7 +26,7 @@ public class Main {
         System.out.println("New Volume is: " + cup.getVolume());
         System.out.println();
 
-        Pot pot = new Pot("Bergoff", "Induction", "Aluminium", 300, ColorOfPot.Grey);
+        Pot pot = new Pot("Bergoff", "Induction", "Aluminium", 300, ColorOfPot.GREY);
         System.out.println(pot.getType());
         System.out.println(pot);
         pot.getHeatingIndicator();
