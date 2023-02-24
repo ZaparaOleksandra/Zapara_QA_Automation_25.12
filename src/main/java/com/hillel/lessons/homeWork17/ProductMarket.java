@@ -62,8 +62,12 @@ public class ProductMarket {
         return pricesLess5;
     }
 
-    public String getAllPriceInStr() {
-        List<Double> allPricesInStr = getAllPrice();
-        return  String.valueOf(allPricesInStr);
+    public List<String> getAllPriceInStr() {
+        List<String> allPricesInStr = new ArrayList<>();
+
+        for (Product prices : products) {
+            allPricesInStr.add(String.valueOf(prices.getPrice()));
+        }
+        return allPricesInStr;
     }
 }
